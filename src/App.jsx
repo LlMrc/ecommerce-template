@@ -1,26 +1,33 @@
 
-import Header from './components/Header/Header'
-import Hero from './components/Hero/Hero'
+import Header from './components/navBar/Header'
+import Hero from './components/hero/Hero'
 import './App.css'
-import Slider from './components/slider/Slider'
-import Virtual from './components/virtual/Virtual'
-import ProductsPage from './components/products/ProductsPage'
-import Testimonial from './components/testimonial/Testimonial'
+
 import Footer from './components/footer/Footer'
+import {BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Collection from "./pages/collection/Collection";
+import Contact from "./pages/contact/Contact";
+import About from "./pages/about/About";
+import Home from "./pages/Home";
+import New from './pages/new/New';
 
 function App() {
 
 
   return (
-    <>
-    <Header/>
-    <Hero/>
-    <Slider/>
-    <Virtual/>
-    <ProductsPage/>
-    <Testimonial/>
+    <BrowserRouter>
+     <Header/>
+     <Routes>
+      <Route index path='/' element={  <Home/>}/>
+        <Route  path='/collection' element={  <Collection/>}/>
+         <Route  path='/about' element={  <About/>}/>
+          <Route  path='/contact' element={  <Contact/>}/>
+          <Route  path='/new' element={  <New/>}/>
+     </Routes>
+     
     <Footer/>
-    </>
+    </BrowserRouter>
   )
 }
 
