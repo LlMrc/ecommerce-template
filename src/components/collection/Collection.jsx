@@ -12,7 +12,7 @@ const Collection = ({img, title, details, price}) => {
          <h4>{title}</h4>
          <p>{details}</p>
          <div className={styles.prices}>
-          <h4> Price: ${price} us</h4>
+          <h4> Price: ${price}</h4>
           <button>Buy now</button>
          </div>
         </div>
