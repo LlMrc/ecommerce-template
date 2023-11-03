@@ -14,7 +14,7 @@ const About = () => {
        <div className={styles.description}>
         <div>
            <h3>How we begin 📈!</h3>
-          <p> Nesciunt hic tempora vero saepe cumque sed, delectus, cupiditate eius nemo laudantium pariatur praesentium? Obcaecati illum, earum quo exercitationem, possimus quibusdam libero perferendis laudantium magni, odio voluptatem! Neque, aliquam sapiente quidem expedita velit molestias eligendi.</p>
+          <p>Nesciunt hic te delectus, cupiditate eius nemo laudantium pariatur praesentium? Obcaecati illum, earum quo exercitationem, possimus quibusdam libero perferendis laudantium magni, odio voluptatem! Neque, aliquam sapiente quidem expedita velit molestias eligendi.</p>
 
         </div>
          

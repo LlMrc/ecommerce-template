@@ -2,11 +2,9 @@ import css from "./Header.module.css";
 import logo from "../../assets/logo.png";
 import { RiShoppingCart2Line } from "react-icons/ri";
 import { GoThreeBars } from "react-icons/go";
-
 import { NavLink, Link} from "react-router-dom";
 import { useState } from "react";
 import Tooltip from "../tootlip/Tooltip";
-import { m } from "framer-motion";
 
 
 

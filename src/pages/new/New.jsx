@@ -4,6 +4,9 @@ import styles from './new.module.css';
 
 import collection from '../../data/collection';
 import Collection from '../../components/collection/Collection';
+
+
+
 class New extends React.Component {
   render(){
     return (
