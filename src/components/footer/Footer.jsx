@@ -29,7 +29,7 @@ const Footer = () => {
     
   </div>
 </div>
-<p>Copyright <span>© 2023  Design by Masha+ company</span>
+<p>Copyright <span>© 2023  Design by Masha+ </span>
 </p>
 </div>
   );
