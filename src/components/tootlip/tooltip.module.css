@@ -5,7 +5,7 @@
 
 .tooltip{
     position: absolute;
-   bottom: calc(-100% -50px);
+   bottom: calc(-100% - 10px);
    transform: translateX(50%);
    background: linear-gradient(to right, rgb(139, 186, 218), rgb(228, 180, 189));
    color: black;
