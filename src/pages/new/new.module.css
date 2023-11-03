@@ -1,0 +1,27 @@
+.wrapper{
+    margin: 10% 14%;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    border: 1.7px solid #000;
+    border-radius: .5rem;
+   
+
+}
+
+@media screen and (max-width:860px) {
+
+    .wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:480px) {
+    
+    .wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,38 @@
+
+  
+
+.cardImg>img{
+    width: 150px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    padding:  0 1rem;
+    color: bisque;
+     background-color: #00000023;
+}
+
+.prices{
+
+    display: flex;
+    gap: 4;
+    justify-content: space-between;
+}
+.prices>button{
+    border: 1.5px solid black;
+    color: white;
+    background: darkslategray;
+    width: 6.5rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+
+}
+
+.prices>button:hover{
+    background: var(--pink);
+    color: black;
+}

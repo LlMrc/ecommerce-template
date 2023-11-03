@@ -6,7 +6,7 @@
     position: sticky;
     top: 0;
     background-color: #00000038;
-   
+   z-index: 100;
  
 }
 
@@ -37,8 +37,8 @@
          color: #000;
        }
 
-
-  
+    
+      
 
   nav a {
     text-decoration: none;

@@ -1,0 +1,116 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    background: white;
+    border-radius: .5rem;
+    width:  60%;
+}
+.wrapper>h1{
+    letter-spacing: 4px;
+}
+
+.right {
+    z-index: 1;
+   padding: 14px;
+    flex: 1;
+    color: rgb(90, 91, 92);
+}
+
+.right>h2 {
+    padding-bottom: 2px;
+}
+
+.contact{
+    padding-bottom: 4px;
+}
+
+label {
+    display: block;
+}
+
+input{
+    width: 60%;
+    border: 1px solid #F4BF96 ;
+    height: 2.3rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+  
+}
+input:focus{
+    border: 1px solid rgba(40, 34, 126, 0.651);
+}
+
+select {
+    width: 60%;
+        border: 1px solid #F4BF96;
+       height: 2.3rem;
+        border-radius: .5rem;
+        margin-bottom: 1rem;
+}
+
+.checkBox>input{
+    width: 14px;
+    height: 14px;
+    background-color: var(--pink);
+    margin-bottom: 0;
+
+ 
+}
+.checkBox>input:focus{
+    border: 1.5px solid #F4BF96;
+}
+.checkBox>p{
+    display: inline;
+    width: 30rem;
+    margin: 0;
+  
+}
+.right>button {
+    width: 100%;
+    border-radius: .5rem;
+    background: var(--pink);
+    color: #000;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+}
+
+.left>img{
+    position: relative;
+z-index: 0;
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+
+    form{
+        flex-direction: column-reverse;
+        width: 100vw;
+    }
+        .left>img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        input{
+            width: 100%;
+        }
+    
+}
+
+@media screen and (max-width: 900px) {
+    form{
+        width: 90%;
+    }
+    input{
+        width: 100%;
+    }
+    
+}

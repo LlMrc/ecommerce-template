@@ -3,14 +3,19 @@ import logo from "../../assets/logo.png";
 import { RiShoppingCart2Line } from "react-icons/ri";
 import { GoThreeBars } from "react-icons/go";
 
-import { NavLink } from "react-router-dom";
+import { NavLink, Link} from "react-router-dom";
 import { useState } from "react";
+import Tooltip from "../tootlip/Tooltip";
 
 
 
 
 
 const Header = () => {
+ 
+
+
+
 
  const [menuOpen, setMenuOpen] = useState(true)
 
@@ -19,10 +24,18 @@ const Header = () => {
 
       <div className={css.leftSide}>
 
-        <div  className={css.logo}>
+        <Tooltip text={'Shop on Amazon store!'}>
+
+          <Link to="https://www.amazon.com/">
+          <div  className={css.logo}>
          <img src={logo} alt="logo" />
          <span>Amazon</span>
         </div>
+        </Link>
+       
+        </Tooltip>
+
+       
 
         <div className={css.menuBtn} onClick={()=> {
              setMenuOpen(!menuOpen)

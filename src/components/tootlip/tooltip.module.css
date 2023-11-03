@@ -1,0 +1,18 @@
+.wrapper{
+    position: relative;
+
+}
+
+.tooltip{
+    position: absolute;
+   bottom: calc(-100% -50px);
+   transform: translateX(50%);
+   background: linear-gradient(to right, rgb(139, 186, 218), rgb(228, 180, 189));
+   color: black;
+   padding: 4px;
+   border-radius: 4px;
+   z-index: 100;
+   min-width: 200px;
+   border: 1.5px solid gray;
+   text-decoration: none;
+}
