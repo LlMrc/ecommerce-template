@@ -1,6 +1,5 @@
 
 import Header from './components/navBar/Header'
-import Hero from './components/hero/Hero'
 import './App.css'
 
 import Footer from './components/footer/Footer'

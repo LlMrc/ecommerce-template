@@ -1,116 +1,68 @@
-.cFooterWrapper{
-    width: 100%;
-    margin-top: 5rem;
+.wrapper{
+    text-align: center;
+    font-size: large;
+color: var(--bgp);
+position: relative;
+ 
 }
 
-.cFooterWrapper>hr{
-    width: 100%;
-    height: 1px;
-    border: none;
-    background: white;
-    margin-top: 1rem;
+
+.wrapper::before{
+    content: '';
+    background-image: url('../../assets/graph.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .05;
 }
 
-.cFooter{
+.cfooter{
+    position: relative;
     display: grid;
-    width: 100%;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 2;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
 }
 
-.logo{
+.social{
+    position: relative;
     display: flex;
-    align-items: flex-start;
-    gap: 1rem;
+    gap: 2;
+    color: var(--pink);
+    justify-content: end;
+    padding: 1rem;
+  
 }
 
-.logo>img{
-    width: 2rem;
-    height: 2rem;
-}
-
-.logo>span{
-    font-weight: 500;
-    font-size: 1rem;
+.social>a{
+   cursor: pointer;
+ 
 }
 
 .block{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 12rem;
+    text-align: start;
+    padding: 1rem;
+    position: relative;
 }
+ 
 
-.details{
-    display: flex;
-    flex-direction: column;
-    width: inherit;
-    font-size: .7rem;
-    gap: 1rem;
-    font-style: italic;
-}
-
-
-.details>span:nth-of-type(1){
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.2rem;
-}
-
-
-.pngLine:hover{
-    cursor: pointer;
-}
-
-.pngLine{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-}
-
-
-.icon{
-    width: 25px;
-}
-
-.copyRight{
-display: flex;
-flex-direction: column;
-width: 100%;
-text-align: center;
-font-size: .65rem;
-margin-top: 2rem;
-
-}
-
-@media screen and (max-width:850px){
-  .cFooter{
-    grid-template-columns: repeat(3, 1fr);
-     
-  }
-  .cFooter>.block{
-    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  }
-
-  .copyRight{
-    grid-column: span 3;
-  } 
-}
-
-
-@media screen and (max-width:640px){
-    .cFooter{
-        grid-template-columns: repeat(2, 1fr);
-        font-size: 1rem;
-    
+ 
+@media screen and (max-width: 860px) {
+    .cfooter{
+        grid-template-columns: repeat( 2, 1fr);
     }
-    .cFooter>.block{
-     
-      box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-    }
-  
-    .copyRight{
-      grid-column: span 3;
-    } 
   }
+   
   
+
+  @media screen and (max-width: 480px) {
+    .cfooter{
+        grid-template-columns: repeat( 1, 1fr);
+    }
+  }
+   

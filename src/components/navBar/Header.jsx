@@ -6,6 +6,7 @@ import { GoThreeBars } from "react-icons/go";
 import { NavLink, Link} from "react-router-dom";
 import { useState } from "react";
 import Tooltip from "../tootlip/Tooltip";
+import { m } from "framer-motion";
 
 
 
@@ -39,6 +40,7 @@ const Header = () => {
 
         <div className={css.menuBtn} onClick={()=> {
              setMenuOpen(!menuOpen)
+             console.log(menuOpen)
         }}>
          <GoThreeBars size={24} />
         </div>
@@ -50,10 +52,18 @@ const Header = () => {
       <div id={css.right} className={menuOpen ? `${css.open}` : ``}>
        
           <nav>
-             <NavLink   to="/">Home</NavLink>
-               <NavLink to="/new">New</NavLink>  
-             <NavLink to="/contact">Contact</NavLink>     
-            <NavLink to="/about">About us</NavLink>      
+             <NavLink   to="/" onClick={()=> {
+             setMenuOpen(!menuOpen)
+        }}>Home</NavLink >
+               <NavLink to="/new" onClick={()=> {
+             setMenuOpen(!menuOpen)
+        }} >New</NavLink>  
+             <NavLink to="/contact" onClick={()=> {
+             setMenuOpen(!menuOpen)
+        }}>Contact</NavLink>     
+            <NavLink to="/about" onClick={()=> {
+             setMenuOpen(!menuOpen)
+        }}>About us</NavLink>      
           </nav>
          
 

@@ -1,72 +1,37 @@
 import css from "./Footer.module.css";
 import logo from "../../assets/logo.png";
-import {
-  // FiInbox,
-  // FaPhoneAlt,
-  FaLink,
-  FaUsers,
-} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-import { RiLoginCircleFill } from "react-icons/ri";
 
-import { GoLocation } from "react-icons/go";
+import { RiLoginCircleFill, RiFacebookCircleLine, RiTwitterLine, RiGithubFill, RiLinkedinBoxFill} from "react-icons/ri";
+
+
 
 const Footer = () => {
   return (
-    <div className={css.cFooterWrapper}>
-      <hr />
-      <div className={css.cFooter}>
-        <div className={css.logo}>
-          <img src={logo} alt="" />
-          <span>Amazon</span>
-        </div>
-
-        <div className={css.block}>
-          <div className={css.details}>
-            <span>Contact us</span>
-            <span className={css.pngLine}>
-              <GoLocation className={css.icon} />
-              <span>111 north avenue Orlando, FL 32001</span>
-            </span>
-          </div>
-        </div>
-
-        <div className={css.block}>
-          <div className={css.details}>
-            <span>Account</span>
-            <span className={css.pngLine}>
-              <RiLoginCircleFill className={css.icon} />
-              <span>Sign in</span>
-            </span>
-          </div>
-        </div>
-        <div className={css.block}>
-          <div className={css.details}>
-            <span>Ressource</span>
-            <span className={css.pngLine}>
-              <FaLink className={css.icon} />
-              <span>Security, privacy $ terms</span>
-            </span>
-          </div>
-        </div>
-
-        <div className={css.block}>
-          <div className={css.details}>
-            <span>Campaingn</span>
-            <span className={css.pngLine}>
-              <FaUsers className={css.icon} />
-              <a href="/about"></a>
-              <p>About us</p>
-            </span>
-          </div>
-        </div>
-
-        <div className={css.copyRight}>
-          <span>Copy right 2023 by Mashpa</span>
-          <span>All right reserved</span>
-        </div>
-      </div>
-    </div>
+    <div className={css.wrapper}>
+      <hr/>
+      <h6> Footer descrption</h6>
+<div className={css.cfooter}>
+  <div className={css.block}>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione maxime incidunt nihil impedit ab enim repudiandae fugit, possimus libero officiis id cumque placeat illo, explicabo ad, eum quasi voluptatum ullam.
+  </div>
+  <div className={css.block}>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem laudantium corrupti laborum illo incidunt velit consequatur aut, maxime inventore temporibus exercitationem ipsam perspiciatis quasi modi doloremque fugiat aliquid enim assumenda.
+  </div>
+  <div className={css.social}>
+    <Link to="https://www.facebook.com/LouisMrcVops">  <RiFacebookCircleLine size={30} /></Link>
+    <Link to="https://github.com/LlMrc">  <RiGithubFill size={30}/></Link>
+    <Link to="https://twitter.com/LouisMcLeonard1"><RiTwitterLine size={30}/></Link>
+     <Link to="">  <RiLoginCircleFill size={30}/></Link>
+     <Link to="https://www.linkedin.com/in/louis-marc-leonard-a57a13192/">  <RiLinkedinBoxFill size={30}/></Link>
+     
+    
+  </div>
+</div>
+<p>Copyright <span>© 2023  Design by Masha+ company</span>
+</p>
+</div>
   );
 };
 

@@ -2,13 +2,14 @@
     margin: 10% 14%;
     display: grid;
     gap: 1.5rem;
+ justify-content: center;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .card{
     border: 1.7px solid #000;
     border-radius: .5rem;
-   
+    
 
 }
 
