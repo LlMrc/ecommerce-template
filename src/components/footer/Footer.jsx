@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className={css.wrapper}>
       <hr/>
-      <h6> Footer descrption</h6>
+      <h6>Footer descrption</h6>
 <div className={css.cfooter}>
   <div className={css.block}>
  Ratione maxime incidunt nihil impedit ab enim repudiandae fugit, possimus libero officiis id cumque placeat illo, explicabo ad, eum quasi voluptatum ullam.
@@ -28,7 +28,7 @@ const Footer = () => {
     
   </div>
 </div>
-<p>Copyright <span>© 2023  Design by Masha+ </span>
+<p>Copyright <span>© 2023  Design by Masha+. </span>
 </p>
 </div>
   );
