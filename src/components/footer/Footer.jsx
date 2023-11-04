@@ -13,7 +13,7 @@ const Footer = () => {
       <h6> Footer descrption</h6>
 <div className={css.cfooter}>
   <div className={css.block}>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione maxime incidunt nihil impedit ab enim repudiandae fugit, possimus libero officiis id cumque placeat illo, explicabo ad, eum quasi voluptatum ullam.
+ Ratione maxime incidunt nihil impedit ab enim repudiandae fugit, possimus libero officiis id cumque placeat illo, explicabo ad, eum quasi voluptatum ullam.
   </div>
   <div className={css.block}>
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem laudantium corrupti laborum illo incidunt velit consequatur aut, maxime inventore temporibus exercitationem ipsam perspiciatis quasi modi doloremque fugiat aliquid enim assumenda.
