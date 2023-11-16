@@ -1,4 +1,5 @@
 # [Your E-commerce Template Name]
+![git](https://github.com/LlMrc/mash-demo/assets/90993312/e69b18b5-c41a-4eea-a8ea-94939b900246)
 
 Welcome to the [Your E-commerce Template Name] repository! This template provides a robust foundation for creating an online store. Whether you're starting a new e-commerce venture or upgrading an existing one, this template is designed to streamline the development process.
 
@@ -63,5 +64,5 @@ This project is licensed under the [Your License] - see the [LICENSE](LICENSE) f
 - Any acknowledgments or credits for third-party libraries, frameworks, or resources used in your e-commerce template.
 
 Thank you for using mash-demo! If you have any questions or feedback, feel free to [contact us](mailto:llouimsrc2@gmail.com).
-![01mash](https://github.com/LlMrc/mash-demo/assets/90993312/1727e471-3365-4a72-97bc-24f05f26cbdd)
+
 ![03mash](https://github.com/LlMrc/mash-demo/assets/90993312/0ef028fb-e5f2-4a55-a044-17850404fdce)
