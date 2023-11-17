@@ -52,7 +52,7 @@ Before you start, make sure you have the following installed on your machine:
 Open your terminal and run the following command to clone the GitHub repository to your local machine:
 
 ```bash
-git clone https://github.com/username/repository.git
+git clone https://github.com/LlMrc/mash-demo.git
 ```
 
 Replace `username` with the GitHub username and `repository` with the name of the React project.
