@@ -44,6 +44,7 @@
 .left > :nth-child(3) {
   font-size: 1.6rem;
   font-weight: bold;
+  text-align: start;
 }
 
 .left > img {
@@ -61,5 +62,11 @@
     margin-bottom: 2rem;
     padding: 1rem;
     text-align: center;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .left > :nth-child(3) {
+    text-align: start;
   }
 }

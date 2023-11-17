@@ -118,4 +118,7 @@
   .s-container .swiper-button-prev {
     display: none;
   }
+  .sub-hero {
+    margin-top: 1rem;
+  }
 }
