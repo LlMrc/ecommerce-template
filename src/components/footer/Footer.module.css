@@ -1,68 +1,62 @@
-.wrapper{
-    text-align: center;
-    font-size: large;
-color: var(--bgp);
-position: relative;
- 
+.wrapper {
+  text-align: center;
+  font-size: large;
+  color: var(--bgp);
+  position: relative;
 }
 
-
-.wrapper::before{
-    content: '';
-    background-image: url('../../assets/graph.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: .05;
+ul li a {
+  color: var(--pink);
+}
+.wrapper::before {
+  content: "";
+  background-image: url("../../assets/graph.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.05;
 }
 
-.cfooter{
-    position: relative;
-    display: grid;
-    gap: 2;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: end;
+.cfooter {
+  position: relative;
+  display: grid;
+  gap: 2;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
 }
 
-.social{
-    position: relative;
-    display: flex;
-    gap: 2;
-    color: var(--pink);
-    justify-content: end;
-    padding: 1rem;
-  
+.social {
+  position: relative;
+  display: flex;
+  gap: 2;
+  color: var(--pink);
+  justify-content: end;
+  padding: 1rem;
 }
 
-.social>a{
-   cursor: pointer;
- 
+.social > a {
+  cursor: pointer;
 }
 
-.block{
-    text-align: start;
-    padding: 1rem;
-    position: relative;
+.block {
+  text-align: start;
+  padding: 1rem;
+  position: relative;
 }
- 
 
- 
 @media screen and (max-width: 860px) {
-    .cfooter{
-        grid-template-columns: repeat( 2, 1fr);
-    }
+  .cfooter {
+    grid-template-columns: repeat(2, 1fr);
   }
-   
-  
+}
 
-  @media screen and (max-width: 480px) {
-    .cfooter{
-        grid-template-columns: repeat( 1, 1fr);
-    }
+@media screen and (max-width: 480px) {
+  .cfooter {
+    grid-template-columns: repeat(1, 1fr);
   }
-   
+}

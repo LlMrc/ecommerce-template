@@ -1,0 +1,90 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: var(--bg);
+  width: 400px;
+  height: 100vh;
+  z-index: 100;
+  box-shadow: -5px 1px 5px -2px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: -5px 1px 5px -2px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: -5px 1px 5px -2px rgba(0, 0, 0, 0.54);
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper p {
+  cursor: pointer;
+  background-color: var(--bgp);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  align-self: self-start;
+  color: black;
+}
+
+p:hover {
+  background: lightskyblue;
+}
+
+#open {
+  right: -100%;
+  background-color: brown;
+}
+
+.itemCard {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background: black;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+footer:nth-child(2) {
+  padding: 2rem;
+}
+
+.total:nth-child(1) {
+  display: flex;
+  justify-content: space-around;
+  height: 2.5rem;
+  border-top: 1px solid var(--bgp);
+  background: var(--bg);
+  color: wheat;
+}
+
+.buynow {
+  background: gray;
+  display: flex;
+  padding: 1.5rem;
+  gap: 1rem;
+  font-size: 14px;
+  justify-content: center;
+}
+
+.buynow > button:nth-child(2) {
+  background: var(--pink);
+}
+
+@media screen and (max-width: 856px) {
+  .wrapper {
+    width: 100%;
+  }
+  .footer {
+    font-size: 13px;
+  }
+}
