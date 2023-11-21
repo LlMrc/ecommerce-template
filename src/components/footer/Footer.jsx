@@ -27,29 +27,43 @@ const Footer = () => {
             <li>
               <a href="https://www.freepik.com/free-photo/cheerful-satisfied-customer-holding-shopping-bags_8132438.htm#page=2&query=shopping%20bag&position=3&from_view=search&track=ais&uuid=fdc34a00-edf6-4527-9ee8-b8ee4af7d2c5">
                 Image by pch.vector
-              </a>{" "}
+              </a>
               on Freepik
             </li>
             <li>
               <a href="https://www.freepik.com/free-photo/stunned-afro-american-woman-looks-with-scared-speechless-expression_13086705.htm">
                 Image by wayhomestudio
-              </a>{" "}
+              </a>
               on Freepik
             </li>
             <li>
-              <a href="https://storyset.com/online">
-                Online illustrations by Storyset
+              <a href="https://www.freepik.com/free-vector/online-shopping-concept-illustration_8449757.htm#page=3&query=illustrator%20ecommerce&position=35&from_view=search&track=ais&uuid=46907b77-5cdc-43f4-981d-66e2066992d8">
+                Image by storyset
               </a>
+              on Freepik
             </li>
             <li>
               <a href="https://www.pexels.com/photo/gel-pen-on-ruled-paper-64779/">
-                {" "}
                 Photo by Free Photos.cc:
               </a>
             </li>
             <li>
-              <a href="https://www.pexels.com/photo/photo-of-people-near-wooden-table-3184418/">
-                Photo by pexels
+              <a href="https://www.freepik.com/free-photo/laptop-shopping-bags-online-shopping-concept_1203166.htm#query=ecommerce&position=5&from_view=search&track=sph&uuid=f9aebe23-1637-42af-9f57-2a6720548a0d">
+                Image by snowing
+              </a>{" "}
+              on Freepik
+            </li>
+
+            <li>
+              <a href="https://www.freepik.com/free-photo/laptop-shopping-bags-online-shopping-concept_1203166.htm#query=ecommerce&position=5&from_view=search&track=sph&uuid=f9aebe23-1637-42af-9f57-2a6720548a0d">
+                Image by snowing
+              </a>{" "}
+              on Freepik
+            </li>
+            <li>
+              Image by{" "}
+              <a href="https://www.freepik.com/free-vector/we-are-open-sign-concept_8356515.htm#query=open&position=0&from_view=search&track=sph&uuid=dbd0a337-84a2-4a76-9151-07e9525b278f">
+                Freepik
               </a>
             </li>
           </ul>

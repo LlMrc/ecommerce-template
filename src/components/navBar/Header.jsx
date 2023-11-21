@@ -12,7 +12,7 @@ const Header = () => {
   const { toggle, getTotalAmount } = useContext(ShopContext);
 
   const totalAmount = getTotalAmount();
-  console.log(totalAmount);
+
   return (
     <div className={css.container}>
       <div className={css.leftSide}>
@@ -80,7 +80,7 @@ const Header = () => {
               toggle();
             }}
           />
-          <span>{totalAmount > 0 && `+`}</span>
+          {totalAmount > 0 && <span></span>}
         </div>
       </div>
     </div>
