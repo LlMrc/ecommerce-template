@@ -8,8 +8,8 @@ const FilterList = () => {
   const { search, isFocus } = useContext(ShopContext);
 
   return (
-    <div>
-      <table className={isFocus ? style.wrapper : style.hideTable}>
+    <div className={isFocus && style.wrapper}>
+      <table className={isFocus ? "" : style.hideTable}>
         <thead>
           <tr>
             <th>Brand</th>
