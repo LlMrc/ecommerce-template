@@ -37,7 +37,7 @@ const Testimonial = () => {
             // eslint-disable-next-line react/jsx-key
             <SwiperSlide key={i}>
               <div className={css.testimonial}>
-                <img src={testimonial.image} alt="" />
+                <img src={testimonial.image} alt={testimonial.name} />
                 <span>{testimonial.comment}</span>
                 <hr />
                 <span>{testimonial.name}</span>

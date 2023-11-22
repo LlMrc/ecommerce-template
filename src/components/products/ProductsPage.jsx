@@ -7,7 +7,7 @@ import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 const ProductsPage = () => {
   const [menuProducts, setMenuPrducts] = useState(ProductsData);
-  const { shopItem, addToCart } = useContext(ShopContext);
+  const { shopItem, addToCart, search } = useContext(ShopContext);
 
   const filter = (type) => {
     setMenuPrducts(ProductsData.filter((item) => item.type === type));

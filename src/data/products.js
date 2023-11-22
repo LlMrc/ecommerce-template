@@ -16,7 +16,7 @@ import img14 from "../assets/img14.png";
 export const ProductsData = [
   {
     id: 1,
-    name: "SKIN",
+    name: "PERFUME",
     detail: "Super Skin Care",
     price: "25",
     img: img1,
@@ -24,7 +24,7 @@ export const ProductsData = [
   },
   {
     id: 2,
-    name: "SKIN",
+    name: "SHOE",
     detail: "Super Skin Care",
     price: "30",
     img: img2,
@@ -32,7 +32,7 @@ export const ProductsData = [
   },
   {
     id: 3,
-    name: "NATURE",
+    name: "SHOE",
     detail: "Super Skin Care",
     price: "25",
     img: img3,
@@ -40,7 +40,7 @@ export const ProductsData = [
   },
   {
     id: 4,
-    name: "Foundation",
+    name: "FRAGRENCE",
     detail: "Super Skin Care",
     price: "25",
     img: img4,
@@ -56,7 +56,7 @@ export const ProductsData = [
   },
   {
     id: 6,
-    name: "NATURE",
+    name: "FRAGRENCE",
     detail: "Super Skin Care",
     price: "25",
     img: img6,
@@ -82,13 +82,13 @@ export const ProductsData = [
     id: 9,
     name: "CONDITIONER",
     details: "Best Conditioner",
-    price: "30",
+    price: "30.67",
     img: img9,
     type: "conditioner",
   },
   {
     id: 10,
-    name: "CONDITIONER",
+    name: "FRAGRENCE",
     details: "Best Conditioner",
     price: "30",
     img: img10,
@@ -96,7 +96,7 @@ export const ProductsData = [
   },
   {
     id: 11,
-    name: "FOUNDATION",
+    name: "Handbag",
     details: "Nourish your skin",
     price: "12",
     img: img11,
@@ -104,7 +104,7 @@ export const ProductsData = [
   },
   {
     id: 12,
-    name: "FOUNDATION",
+    name: "Conditioner",
     details: "Nourish your skin",
     price: "12",
     img: img12,
@@ -112,7 +112,7 @@ export const ProductsData = [
   },
   {
     id: 13,
-    name: "FOUNDATION",
+    name: "Handbag",
     details: "Nourish your skin",
     price: "12",
     img: img13,
@@ -120,7 +120,7 @@ export const ProductsData = [
   },
   {
     id: 14,
-    name: "FOUNDATION",
+    name: "PERFUME",
     details: "Nourish your skin",
     price: "12",
     img: img14,

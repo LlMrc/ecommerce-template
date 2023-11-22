@@ -14,6 +14,9 @@ const getDefaultCard = () => {
 export const ShopContextProvider = (props) => {
   const [shopItem, setShopItem] = useState(getDefaultCard());
   const [isOpen, setIsOpen] = useState(false);
+  const [isFocus, setIsFocus] = useState(false);
+  const [search, setSearch] = useState("");
+
   // get total Amount
 
   const getTotalAmount = () => {
@@ -46,6 +49,10 @@ export const ShopContextProvider = (props) => {
   const contextValue = {
     shopItem,
     isOpen,
+    search,
+    isFocus,
+    setIsFocus,
+    setSearch,
     toggle,
     removeFromCard,
     getTotalAmount,

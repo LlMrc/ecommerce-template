@@ -9,10 +9,11 @@ import { ShopContext } from "../../context/shop-context";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(true);
-  const { toggle, getTotalAmount } = useContext(ShopContext);
+  const { toggle, getTotalAmount, setSearch, setIsFocus } =
+    useContext(ShopContext);
 
   const totalAmount = getTotalAmount();
-  console.log(totalAmount);
+
   return (
     <div className={css.container}>
       <div className={css.leftSide}>
@@ -45,14 +46,7 @@ const Header = () => {
           >
             Home
           </NavLink>
-          <NavLink
-            to="/new"
-            onClick={() => {
-              setMenuOpen(!menuOpen);
-            }}
-          >
-            New
-          </NavLink>
+
           <NavLink
             to="/contact"
             onClick={() => {
@@ -67,8 +61,15 @@ const Header = () => {
               setMenuOpen(!menuOpen);
             }}
           >
-            About us
+            About
           </NavLink>
+          <input
+            onFocus={() => setIsFocus(true)}
+            onBlur={() => setIsFocus(false)}
+            onChange={(e) => setSearch(e.target.value)}
+            label="Password"
+            placeholder=" search"
+          ></input>
         </nav>
 
         <div className={css.rightSide}>

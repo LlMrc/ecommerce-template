@@ -5,6 +5,7 @@ import Virtual from "../components/virtual/Virtual";
 import ProductsPage from "../components/products/ProductsPage";
 import Testimonial from "../components/testimonial/Testimonial";
 import ShoppingList from "../components/shopping/shopping_list";
+import FilterList from "../components/filter/filter_list";
 import style from "./home.module.css";
 import { ShopContext } from "../context/shop-context";
 
@@ -24,7 +25,7 @@ const Home = () => {
         <ProductsPage />
         <Testimonial />
       </div>
-
+      <FilterList />
       <ShoppingList />
     </>
   );

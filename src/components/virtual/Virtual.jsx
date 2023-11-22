@@ -1,8 +1,8 @@
 import css from "./Virtual.module.css";
 import Shade from "../../assets/shade.png";
 import ReactCompareImage from "react-compare-image";
-import Before from "../../assets/before.png";
-import After from "../../assets/after.png";
+import Before from "../../assets/before.jpg";
+import After from "../../assets/after.jpg";
 
 const Virtual = () => {
   return (

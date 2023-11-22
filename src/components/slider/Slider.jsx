@@ -16,7 +16,9 @@ const Slider = () => {
 
   return (
     <div className="sub-hero">
-      <span className="title">Best sellers !!!</span>
+      <span className="title">
+        <div>Best sellers !!!</div>
+      </span>
       <div className="s-container">
         <Swiper
           breakpoints={{

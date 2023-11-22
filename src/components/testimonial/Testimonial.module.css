@@ -75,6 +75,7 @@
   width: 3rem;
   top: -1.5rem;
   left: 45%;
+  border-radius: 34rem;
 }
 
 .testimonial > span:nth-of-type(1) {

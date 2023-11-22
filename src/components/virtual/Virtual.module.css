@@ -32,6 +32,7 @@
 
 .wrapper {
   width: 30rem;
+  width: 16rem;
 }
 
 .left > :nth-child(2) {

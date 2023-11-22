@@ -1,4 +1,4 @@
-import HeroTage from "../../assets/svg/hero.svg";
+import HeroTage from "../../assets/hero.png";
 import css from "./Hero.module.css";
 import { RiShoppingBagLine } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";

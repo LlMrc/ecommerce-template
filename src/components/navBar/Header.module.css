@@ -31,6 +31,9 @@
   justify-self: center;
   gap: 2rem;
 }
+nav {
+  display: flex;
+}
 nav a:hover {
   background-color: #f4bf96;
   color: #000;
