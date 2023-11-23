@@ -1,0 +1,30 @@
+
+ for all buyers
+
+---
+
+**Subject: Information Regarding Images in Your Purchase**
+
+Dear Buyer
+
+We hope this purchase brings you complete satisfaction. We want to inform you that, in order to strictly adhere to copyright regulations, we have included images that we have taken ourselves and original creations in the content you have acquired.
+
+These images are royalty-free and have been carefully selected to enhance your experience. However, we understand that you may have your own preferences when it comes to visual aesthetics.
+
+Therefore, feel free to personalize your purchase by replacing the provided images with those that best suit your tastes and needs. You have the freedom to remove or substitute these images without any restrictions.
+
+The list of products provided in the template is designed for simulation purposes and is not intended to represent an actual database of products. Instead, it serves as a placeholder to give you a visual representation. To fully integrate dynamic and real-time data into your application, we recommend replacing this simulated product list with data obtained through an API REST request.
+
+Please replace the existing product list in the template with the appropriate API REST query to ensure that your application reflects up-to-date and accurate information. If you have any questions or need guidance on implementing this change, feel free to reach out to our support team.
+
+We appreciate your understanding and diligence in making this adjustment for a more dynamic and responsive application.
+
+We appreciate your understanding and are available if you have any additional questions or specific requests. Our goal is to provide you with a personalized and satisfactory experience.
+
+Thank you for your trust and your purchase.
+
+Best regards,
+
+[louis marc leonard]
+[Masha plus]
+[mashaplus@gmail.com]
