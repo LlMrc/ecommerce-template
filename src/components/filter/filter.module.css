@@ -1,0 +1,45 @@
+.wrapper {
+  position: fixed;
+  top: 6.5rem;
+  right: 10px;
+  background: var(--bgp);
+  width: 400px;
+  height: 85%;
+
+  z-index: 10;
+  overflow: scroll;
+}
+.hideTable {
+  display: none;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 1rem;
+  text-transform: capitalize;
+  color: rgb(59, 59, 59);
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #e4eef7;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: var(--pink);
+  color: white;
+}

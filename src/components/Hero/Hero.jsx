@@ -12,16 +12,18 @@ const Hero = () => {
       <div className={css.h_side}>
         <span className={css.text1}>Skin Protection</span>
         <div className={css.text2}>
-          <span>Trendy collection</span>
-          <span>Seedly say has suitable disposal and buy. Exercice</span>
+          <span>Trendy </span>
+          <span> Collection</span>
+
+          <p>Seedly say has suitable disposal and buy. Exercice</p>
         </div>
       </div>
 
       {/* Middle side */}
       <div className={css.wrapper}>
         <motion.div
-          initial={{ bottom: "2rem" }}
-          whileInView={{ bottom: "0" }}
+          initial={{ bottom: "0" }}
+          whileInView={{ bottom: "70px" }}
           transition={transition}
           className={css.blueCircle}
         />

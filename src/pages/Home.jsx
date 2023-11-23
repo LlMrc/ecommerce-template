@@ -7,6 +7,7 @@ import Testimonial from "../components/testimonial/Testimonial";
 import ShoppingList from "../components/shopping/shopping_list";
 import style from "./home.module.css";
 import { ShopContext } from "../context/shop-context";
+import FilterList from "../components/filter/filter_list";
 
 const Home = () => {
   const { isOpen, toggle } = useContext(ShopContext);
@@ -24,7 +25,7 @@ const Home = () => {
         <ProductsPage />
         <Testimonial />
       </div>
-
+      <FilterList />
       <ShoppingList />
     </>
   );

@@ -9,7 +9,8 @@ import { ShopContext } from "../../context/shop-context";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(true);
-  const { toggle, getTotalAmount } = useContext(ShopContext);
+  const { toggle, getTotalAmount, setSearch, setIsFocus } =
+    useContext(ShopContext);
 
   const totalAmount = getTotalAmount();
 
@@ -29,7 +30,9 @@ const Header = () => {
           <RiShoppingCart2Line
             size={24}
             className={css.cart}
-            onClick={() => toggle()}
+            onClick={() => {
+              totalAmount > 0 && toggle();
+            }}
           />
           <GoThreeBars size={24} onClick={() => setMenuOpen(!menuOpen)} />
         </div>
@@ -45,14 +48,7 @@ const Header = () => {
           >
             Home
           </NavLink>
-          <NavLink
-            to="/new"
-            onClick={() => {
-              setMenuOpen(!menuOpen);
-            }}
-          >
-            New
-          </NavLink>
+
           <NavLink
             to="/contact"
             onClick={() => {
@@ -67,8 +63,15 @@ const Header = () => {
               setMenuOpen(!menuOpen);
             }}
           >
-            About us
+            About
           </NavLink>
+          <input
+            onFocus={() => setIsFocus(true)}
+            onBlur={() => setIsFocus(false)}
+            onChange={(e) => setSearch(e.target.value)}
+            label="Password"
+            placeholder=" search"
+          ></input>
         </nav>
 
         <div className={css.rightSide}>
@@ -77,10 +80,10 @@ const Header = () => {
             className={css.cart}
             onClick={() => {
               setMenuOpen(true);
-              toggle();
+              totalAmount > 0 && toggle();
             }}
           />
-          {totalAmount > 0 && <span></span>}
+          {totalAmount > 0 && <span />}
         </div>
       </div>
     </div>
