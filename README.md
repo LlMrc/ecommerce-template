@@ -1,7 +1,7 @@
-# [Your E-commerce Template Name]
+#  Mash Eshopping template 
 ![git](https://github.com/LlMrc/mash-demo/assets/90993312/e69b18b5-c41a-4eea-a8ea-94939b900246)
 
-Welcome to the [Your E-commerce Template Name] repository! This template provides a robust foundation for creating an online store. Whether you're starting a new e-commerce venture or upgrading an existing one, this template is designed to streamline the development process.
+Welcome to the Mash Eshopping template repository! This template provides a robust foundation for creating an online store. Whether you're starting a new e-commerce venture or upgrading an existing one, this template is designed to streamline the development process.
 
 ## Getting Started
 
