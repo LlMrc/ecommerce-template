@@ -1,7 +1,8 @@
 # Eshoppnig pro
-![git](https://github.com/LlMrc/mash-demo/assets/90993312/e69b18b5-c41a-4eea-a8ea-94939b900246)
 
-Welcome to the [Your E-commerce Template Name] repository! This template provides a robust foundation for creating an online store. Whether you're starting a new e-commerce venture or upgrading an existing one, this template is designed to streamline the development process.
+![01_preview](https://github.com/LlMrc/mash-demo/assets/90993312/2d033943-5c4b-4eb7-9aa8-bfe419019d19)
+
+Welcome to the mash-demo repository! This template provides a robust foundation for creating an online store. Whether you're starting a new e-commerce venture or upgrading an existing one, this template is designed to streamline the development process.
 
 ## Getting Started
 
@@ -11,20 +12,20 @@ These instructions will help you set up and customize the e-commerce template to
 
 Before you begin, ensure you have the following installed:
 
-- [List any specific software or dependencies needed for your e-commerce template]
+
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-ecommerce-template.git
+   git clone https://github.com/LlMrc/mash-demo.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-ecommerce-template
+   cd mash-demo
    ```
 
 3. Open the `index.html` file in your preferred code editor.
@@ -58,7 +59,7 @@ https://www.buymeacoffee.com/llouismrc2W
 
 ## License
 
-This project is licensed under the [Your License] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT- see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
