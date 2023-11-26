@@ -6,15 +6,18 @@ Welcome to the mash-demo repository! This template provides a robust foundation 
 
 ## Getting Started
 
+## 1 Buy me a coffee
+https://www.buymeacoffee.com/llouismrc2W
+
 These instructions will help you set up and customize the e-commerce template to meet your specific requirements.
 
-### Prerequisites
+### 2 Prerequisites
 
 Before you begin, ensure you have the following installed:
 
 
 
-### Installation
+### 3 Installation
 
 1. Clone the repository:
 
@@ -30,7 +33,7 @@ Before you begin, ensure you have the following installed:
 
 3. Open the `index.html` file in your preferred code editor.
 
-## Customization
+## 4 Customization
 
 To customize the e-commerce template for your specific store, follow these steps:
 
