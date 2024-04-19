@@ -6,8 +6,6 @@ Welcome to the mash-demo repository! This template provides a robust foundation 
 
 ## Getting Started
 
-## 1 Buy me a coffee
-https://www.buymeacoffee.com/llouismrc2W
 
 These instructions will help you set up and customize the e-commerce template to meet your specific requirements.
 
